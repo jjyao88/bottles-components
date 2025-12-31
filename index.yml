@@ -2741,10 +2741,10 @@ vkd3d-proton-2.5:
 
 # ./input_files/14-dxvk.yml
 # -----------------------
-dxvk-2.7.1-7-21eb344:
+dxvk-2.7.1-8-584041f:
   Category: dxvk
   Channel: unstable
-  Date: '1765489088'
+  Date: '1767118831'
 dxvk-2.7.1:
   Category: dxvk
   Channel: stable
@@ -2978,6 +2978,11 @@ latencyflex-v0.1.0:
 
 # ./input_files/18-proton-EM.yml
 # -----------------------
+proton-em-10.0-33:
+  Category: runners
+  Sub-category: proton
+  Channel: stable
+  Date: '1766867505'
 proton-em-10.0-32:
   Category: runners
   Sub-category: proton
