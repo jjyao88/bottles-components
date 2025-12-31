@@ -1,0 +1,30 @@
+diff --git a/dxvk/dxvk-2.7.1-8-584041f.yml b/dxvk/dxvk-2.7.1-8-584041f.yml
+new file mode 100644
+index 0000000..5558271
+--- /dev/null
++++ b/dxvk/dxvk-2.7.1-8-584041f.yml
+@@ -0,0 +1,10 @@
++Name: dxvk-2.7.1-8-584041f
++Provider: doitsujin
++Maintainer: CI
++Channel: unstable
++File:
++- file_name: dxvk-2.7.1-8-584041f.tar.gz
++  url: https://github.com/jjyao88/bottles-components/releases/download/dxvk-2.7.1-8-584041f/dxvk-2.7.1-8-584041f.tar.gz
++  file_checksum: 1a1beb74e6137cf0046565da938d0895
++  file_size: 15638363
++  rename: dxvk-2.7.1-8-584041f.tar.gz
+diff --git a/input_files/14-dxvk.yml b/input_files/14-dxvk.yml
+index eb89f1f..15f1561 100644
+--- a/input_files/14-dxvk.yml
++++ b/input_files/14-dxvk.yml
+@@ -1,7 +1,7 @@
+-dxvk-2.7.1-7-21eb344:
++dxvk-2.7.1-8-584041f:
+   Category: dxvk
+   Channel: unstable
+-  Date: '1765489088'
++  Date: '1767118831'
+ dxvk-2.7.1:
+   Category: dxvk
+   Channel: stable
